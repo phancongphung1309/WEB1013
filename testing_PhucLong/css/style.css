@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	font-size: 16px;
+}
+.navbar a {
+	display: block;
+	padding: 5px 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #333;
+	font-weight: 600;
+}
+.navbar {
+	clear: both;
+	margin-bottom: 20px;
+	border: 1px solid #ececec;
+}
+.navbar ul li {
+	position: relative;
+	padding: 10px 15px;
+}
+.dropdown ul li a {
+	color: #333;
+	padding: 5px 15px;
+	display: block;
+}
+.down{
+	cursor: pointer;
+}
+.navbar ul .down:hover .dropdown{
+	display: block;
+}
+.navbar ul li a:hover{
+	color: #0c713d;
+}
+.dropdown ul {
+	padding: 0px;
+	display: list-item !important;
+}
+.dropdown {
+	transition-duration: 0.3s;
+	display: none;
+	position: absolute;
+	background: #fff;
+	width: 100%;
+	border: 1px solid #ececec;
+	border-top: 0;
+	top: 55px;
+	left: 0px;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto; 
+}
+.block-first .block-left{
+	width: 50%;
+	float: left;
+}
+.block-first .block-right{
+	width: 50%;
+	float: left;
+}
+.block-left img{
+	width: 100%;
+}
+.heading-title h3{
+	margin-top: 3rem;
+	padding: 5rem 5rem;
+	font-size: 24px;
+	color: #0C713D;
+}
+.description{
+	padding: 0rem 5rem;
+}
+.clearfix{
+	clear: both;
+}
+.block-second .block-left {
+	width: 50%;
+	float: left;
+}
+.block-second .block-right {
+	width: 50%;
+	float: left;
+}
+.block-second {
+	clear: both;
+	padding-top: 5rem;
+}
+.block-second .block-right img{
+	max-width: 320px;
+	margin-left: 50px;
+}
+button {
+	padding: 0.7rem 1.5rem;
+	border-radius: 3px;
+	color: #0C713D;
+	border: 1px solid #0C713D;
+	box-shadow: unset;
+	margin-top: 1rem;
+	background: #fff;
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+button:hover{
+	background: #0C713D;
+	color: #fff;
+}
+.navbar a img {
+	width: 20px;
+	position: relative;
+}
+.navbar ul {
+	padding: 0px;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
