@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 9</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="form">
+			<form action="" method="POST" enctype="multipart/form-data">
+				<div class="form-group">
+					<label>Họ và tên: </label>
+					<input type="text" name="username" class="form-control">
+				</div>
+				<div class="form-group">
+					<label>Giới tính: </label>
+					<input type="radio" name="men"> <label>Nam</label>
+					<input type="radio" name="woman"> <label>Nữ</label>
+				</div>
+				<div class="form-group">
+					<label>Hình ảnh: </label>
+					<input type="file" name="image" class="form-control">
+				</div>
+				<div class="form-group">
+					<label>Quốc tịch: </label>
+					<select name="nationality" class="form-control">
+						<option>--- Chọn quốc tịch ---</option>
+						<option>US</option>
+						<option>VN</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<input type="checkbox" name="sport"> <label>Thể thao</label>
+					<input type="checkbox" name="travel"> <label>Du lịch</label>
+					<input type="checkbox" name="music"> <label>Âm nhạc</label>
+					<input type="checkbox" name="food"> <label>Ẩm thực</label>
+				</div>
+				<div class="form-group border-bottom">
+					<label>Ghi chú: </label> <br/>
+					<textarea rows="3"></textarea>
+				</div>
+				<input type="submit" name="register" value="Đăng ký"> 
+				<input type="submit" name="clear" value="Nhập lại"> 
+			</form>
+		</div>
+	</div>
+</body>
+</html>

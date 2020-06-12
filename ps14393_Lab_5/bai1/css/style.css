@@ -1,0 +1,17 @@
+p>img{
+    width: 20%;
+    max-height: 150px;
+    border: 5px solid red;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: yellow;
+    box-shadow: blur 5px green;
+
+
+
+}
+p>img:hover{
+    box-shadow: 5px 5px 20px red ;
+    background-color: aqua;
+}

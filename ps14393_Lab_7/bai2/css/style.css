@@ -1,0 +1,134 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.container > header{
+  
+    background-image: url(../img/1.jpg);
+    height: 0px;
+    background-size: 100% 100% ;
+    padding-bottom: 25%;
+
+}
+
+nav{
+    line-height: 40px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+
+    
+
+}
+.container >nav a{
+    text-decoration: none;
+    color: white;
+    margin:0 10px;
+}
+.container> article{
+    min-height: 400px;
+    width: 75%;
+    background-color: white;
+    float: left;
+}
+.container > aside{
+    min-height: 400px;
+    width: 25%;
+    background-color: lightgray;
+    float: right;
+}
+.container>footer{
+    border-top:5px double orangered;
+line-height:50px;
+background-color:lightcyan;
+text-align:center;
+font-variant:small-caps; clear:both;
+}
+.container > nav > a:hover{
+    color:yellow;
+    text-decoration:underline;
+} 
+iframe
+{
+    width: 100%;
+    min-height: 400px;
+}
+
+.vmenu{
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+}
+.vmenu a {
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: large;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px ;
+}
+.vmenu a:hover{
+    border-bottom: 1 pixel dotted white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+.icon{
+    float: left;
+    margin-top: 10px ;
+
+}
+.vmenu li:hover i.fa.fa-bandcamp.icon{
+display: none;
+
+
+}
+
+.vmenu li:hover .icon-after{
+    display: block !important;
+    float: left;
+    margin-top: 10px ;
+
+    }
+    
+.icon-after{
+    display: none !important;
+}
+.nav1 ul
+{
+    border-bottom-left-radius: 30px;
+    float: right;
+    background-color: orangered;
+    box-shadow: 5px 5px 5px white;
+
+}
+header{
+    position: relative;
+}
+.nav1 ul li{
+    display: inline-block; 
+    list-style: none;
+
+
+
+}
+.nav1 ul li a{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.nav1{
+    position: absolute;
+    right: 0;
+    top: -7%;
+
+}

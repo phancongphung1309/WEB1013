@@ -1,0 +1,22 @@
+.title{
+	font-weight: 700;
+	text-transform: uppercase;
+	color:grey;
+	text-align: center;
+}
+.content{
+	width: 500px;
+	margin: auto;
+}
+.content p{
+	font-style: italic;
+}
+.content .same{
+	color:#333;
+}
+.color-brown{
+	color: brown;
+}
+.diff{
+	color:#757575;
+}
