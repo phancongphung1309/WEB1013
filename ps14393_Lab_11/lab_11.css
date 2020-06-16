@@ -1,0 +1,33 @@
+table {
+    border-collapse: collapse;
+}
+
+tr:nth-child(2n+1) {
+    background-color: lightgray;
+}
+
+tr:first-child {
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+tr:nth-child(2) {
+    background-color: lightgreen;
+    text-align: center;
+}
+
+td {
+    padding: 5px;
+    text-align: center;
+    min-width: 40px;
+    border: 1px solid black;
+}
+
+td:nth-child(2n+1) {
+    color: blue;
+}
+
+td:nth-child(2n) {
+    color: red;
+}
